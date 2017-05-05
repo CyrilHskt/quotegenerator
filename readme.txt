@@ -1,0 +1,1 @@
+This is the quote generator of that tuto : https://www.youtube.com/watch?v=CpYRr_t4AFc
