@@ -8,6 +8,10 @@ class App extends React.Component {
     
     state = {};
 
+    componentWillMount(){
+        this.genererCitation();
+    }
+
     genererCitation = event => {
         const keyArray = Object.keys(citations);
         const randomKey = keyArray[Math.floor(Math.random() * keyArray.length)];
